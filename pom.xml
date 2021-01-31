@@ -33,16 +33,16 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
+						<muleVersion>4.3.0</muleVersion>
 						<!-- Deploy User Parameter -->
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
+						<username>Bhanu_Reddy1</username>
+						<password>AnjuAmmu@1327!</password>
 
-						<environment>${env}</environment>
-						<applicationName>${appname}</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
+						<environment>Sandbox</environment>
+						<applicationName>jenkinapp</applicationName>
+						<businessGroup>Self</businessGroup>
+						<workerType>MICRO</workerType>
+					
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				<classifier>mule-application</classifier>
